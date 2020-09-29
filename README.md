@@ -1,4 +1,4 @@
-[![pyvrml-logo](../resource/logo.png)](../README.md)
+[![pyvrml-logo](./resource/logo.png)](./README.md)
 
 PyVrml是基于python3的开发工具库
 
@@ -19,6 +19,10 @@ PyVrml是基于python3的开发工具库
 ### http
 
 带有重试功能的http访问api，针对json的包装
+
+### login
+
+用于通过登录进行验权，从而爬取受账号权限保护的页面数据
  
 ### retry
 
