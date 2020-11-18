@@ -1,9 +1,6 @@
 import requests
 
-from ..retry.retryable import login_retry
 
-
-@login_retry
 def login(userName: str, password: str, loginUrl: str, redirectUrl: str):
     """
     通过登录进行验权，然后跳转到目标页面

@@ -1,5 +1,5 @@
-from pyvrml.excel.excelhelper import render_excel
-from pyvrml.file.csvhelper import read_csv
+from pyvrml.excel.excelutils import render_excel
+from pyvrml.file.csvutils import read_csv
 
 
 def csv_to_excel_demo1():
@@ -45,7 +45,7 @@ def csv_to_excel_demo2():
                  content_rows=content_rows,
                  excel_name="test2.xls")
 
-
+# 将csv文件转换成execl文件
 if __name__ == '__main__':
     csv_to_excel_demo1()
     csv_to_excel_demo2()
