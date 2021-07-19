@@ -9,7 +9,7 @@ def gen_excel_demo1():
     locale = "zh-hk"
 
     content_rows = []
-    for i in range(10000):
+    for i in range(65535):
         email = email_prefix + str(i) + email_suffix
 
         content_row = []
