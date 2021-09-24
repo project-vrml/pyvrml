@@ -19,7 +19,7 @@ def http_retry_get(http_func):
             try:
                 return http_func(url, params, headers)
             except Exception as e:
-                print("[retryutils.http.get] retry count: " + str(i) + ", error: ", e)
+                print("[retryutils.http.get] utils count: " + str(i) + ", error: ", e)
                 time.sleep(retry_wait_second)
             i += 1
 
@@ -39,7 +39,7 @@ def http_retry_get_json(http_func):
             try:
                 return http_func(url, params)
             except Exception as e:
-                print("[retryutils.http.get_json] retry count: " + str(i) + ", error: ", e)
+                print("[retryutils.http.get_json] utils count: " + str(i) + ", error: ", e)
                 time.sleep(retry_wait_second)
             i += 1
 
@@ -59,7 +59,7 @@ def http_retry_post_json(http_func):
             try:
                 return http_func(url, request)
             except Exception as e:
-                print("[retryutils.http.post_json] retry count: " + str(i) + ", error: ", e)
+                print("[retryutils.http.post_json] utils count: " + str(i) + ", error: ", e)
                 time.sleep(retry_wait_second)
             i += 1
 

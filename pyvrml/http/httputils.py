@@ -2,6 +2,8 @@ import json
 
 import requests
 
+from pyvrml.utils.retryutils import http_retry_get, http_retry_get_json, http_retry_post_json
+
 
 @http_retry_get
 def get(url, params=None, headers=None):
