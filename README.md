@@ -2,6 +2,10 @@
 
 PyVrml是基于python3的开发工具库
 
+## Architecture
+
+![PyVrml Architecture](./resource/pyvrml-architecture.png)
+
 提供对各项通用工具的支持，例如Excel，文件操作，网络调用等
 
 在数据查询方面，您可以通过API或者爬虫的方式，接入您所使用的各种平台
